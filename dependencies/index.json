@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "c8b0e6ae57480a63d579a06792db3d0b83d071b6",
+  "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
   "revisions": [
+    {
+      "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
+      "short": "305d9ed",
+      "message": "Merge branch 'main' of github.com:perhed-dvel/TestCICD",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T13:31:27Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2a663ff83c0c0ae6d3258adcf0ef50bf68851fc2",
+      "short": "2a663ff",
+      "message": "Test suite non-interactive",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T13:31:10Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "c8b0e6ae57480a63d579a06792db3d0b83d071b6",
       "short": "c8b0e6a",
