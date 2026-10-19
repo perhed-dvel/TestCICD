@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "ebbb31596cd5da5240d10013e994df674b965b70",
+  "sha": "c8b0e6ae57480a63d579a06792db3d0b83d071b6",
   "revisions": [
+    {
+      "sha": "c8b0e6ae57480a63d579a06792db3d0b83d071b6",
+      "short": "c8b0e6a",
+      "message": "Merge pull request #3 from perhed-dvel/labview-ci/reconfigure-39252633882",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T13:13:35Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5d6878f1ed0a402cb4c1a33aea5f0ea15dfe8668",
+      "short": "5d6878f",
+      "message": "Merge branch 'main' into labview-ci/reconfigure-39252633882",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T13:13:22Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "ebbb31596cd5da5240d10013e994df674b965b70",
       "short": "ebbb315",
@@ -18,6 +36,15 @@
       "message": "ci: reconfigure LabVIEW CI settings",
       "author": "github-actions[bot]",
       "date": "2026-10-19T12:32:58Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ad2cee37f3c79097477271d142ab8b93def43a59",
+      "short": "ad2cee3",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-10-19T12:30:54Z",
       "project": false,
       "dep_only": false
     },
