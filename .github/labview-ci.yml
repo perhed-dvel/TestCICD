@@ -38,3 +38,24 @@ activities:
   - builds
   - sbom-generation
   - vi-analyzer
+
+unitTests:
+  thresholds:
+    passedPercent:
+      greenAtLeast: 100
+      yellowAtLeast: 80
+      redBelow: 80
+  tools:
+    caraya:
+      enabled: true
+      locations:
+        - "*/Unit Tests/"
+    lunit:
+      enabled: false
+      locations: []
+    vi-tester:
+      enabled: false
+      locations: []
+    utf:
+      enabled: false
+      locations: []
