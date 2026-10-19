@@ -2,7 +2,7 @@
 # Updated by the Reconfigure workflow.
 schemaVersion: 1
 installedVersion: 4.16.3
-configuredAt: 2026-10-19T12:30:53Z
+configuredAt: 2026-10-19T12:32:58Z
 source:
   repo: elijah286/LabVIEW-CI-with-Containers
   ref: v4.16.3
@@ -23,6 +23,10 @@ config:
     dragon:
       - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
+  builds:
+    runAll: false
+    specs:
+      - "DQMH_Example/DQMH_Example.lvproj::CML::windows"
 activities:
   - dashboard
   - masscompile
