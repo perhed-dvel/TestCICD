@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "9bf961568d3cdf0b48da09a6e1739a7d759346cb",
+  "sha": "ffc9c10fe4b2c26557136777451bcebc16710e24",
   "revisions": [
+    {
+      "sha": "ffc9c10fe4b2c26557136777451bcebc16710e24",
+      "short": "ffc9c10",
+      "message": "Merge pull request #2 from perhed-dvel/labview-ci/reconfigure-39250843158",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T12:19:01Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ad7cd20520f653e57319b26c5f4b17325fcf94b9",
+      "short": "ad7cd20",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-10-19T12:17:08Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "9bf961568d3cdf0b48da09a6e1739a7d759346cb",
       "short": "9bf9615",
@@ -68,12 +86,29 @@
     }
   ],
   "config": {
-    "use": "",
+    "use": "latest",
     "actions": {},
-    "vipc": [],
-    "dragon": [],
-    "hasVipcList": false,
-    "hasDragonList": false
+    "vipc": [
+      {
+        "path": ".github/labview/vipm/ci-tooling.vipc",
+        "monitor": true,
+        "monitorOn": null
+      },
+      {
+        "path": "DQMH_Example/Dependencies.vipc",
+        "monitor": true,
+        "monitorOn": null
+      }
+    ],
+    "dragon": [
+      {
+        "path": "DQMH_Example/DQMH_Example.dragon",
+        "monitor": true,
+        "monitorOn": null
+      }
+    ],
+    "hasVipcList": true,
+    "hasDragonList": true
   },
   "vipc": [
     {
