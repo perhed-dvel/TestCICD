@@ -35,7 +35,8 @@ RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -o /out/runner .
 # default here only covers ad-hoc local builds.
 #ARG LV_CONTAINER_TAG=2026q1patch2-linux
 ARG LV_CONTAINER_TAG=2026q3-linux
-FROM nationalinstruments/labview:${LV_CONTAINER_TAG}
+#FROM nationalinstruments/labview:${LV_CONTAINER_TAG}
+FROM nationalinstruments/labview:2026q3-linux
 
 ARG VIPM_DEB_URL
 ARG CI_WORKER_VERSION=dev
