@@ -1,7 +1,7 @@
 {
-  "version": "win-68ca7114f996",
+  "version": "win-982773c5fc86",
   "platform": "windows",
-  "manifest_url": "https://perhed-dvel.github.io/TestCICD/workers/windows/win-68ca7114f996/manifest.html",
-  "build_date": "2026-10-19T09:54:26Z",
-  "git_sha": "ad4b790eef5fb4fafa2327792594cfc26e4d3caa"
+  "manifest_url": "https://perhed-dvel.github.io/TestCICD/workers/windows/win-982773c5fc86/manifest.html",
+  "build_date": "2026-10-19T12:19:15Z",
+  "git_sha": "ffc9c10fe4b2c26557136777451bcebc16710e24"
 }
