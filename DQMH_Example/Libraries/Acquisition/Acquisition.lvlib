@@ -8,6 +8,9 @@
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Friends List" Type="Friends List">
+		<Item Name="Unit Tests.lvlib" Type="Friended Library" URL="../../../Unit Tests/Unit Tests.lvlib"/>
+	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -127,6 +130,9 @@
 		<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 		<Item Name="Generate Simulated Data.vi" Type="VI" URL="../Generate Simulated Data.vi"/>
 		<Item Name="Close Hardware References.vi" Type="VI" URL="../Close Hardware References.vi"/>
+	</Item>
+	<Item Name="Community" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Apply Calibration.vi" Type="VI" URL="../Apply Calibration.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">

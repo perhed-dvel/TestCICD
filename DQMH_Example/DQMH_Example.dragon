@@ -1,0 +1,11 @@
+[project]
+labview-version = 2026
+vipc = ""
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+delacor_lib_qmh = "7.1.2.1547"
+jki_lib_caraya = "1.4.4.148"
