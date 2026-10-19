@@ -33,7 +33,8 @@ RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -o /out/runner .
 # catalog's containers[] entry - never float on latest-linux (see the Windows
 # base Dockerfile for the 2026-07-27 latest-tag incident this prevents). The
 # default here only covers ad-hoc local builds.
-ARG LV_CONTAINER_TAG=2026q1patch2-linux
+#ARG LV_CONTAINER_TAG=2026q1patch2-linux
+ARG LV_CONTAINER_TAG=2026q3-linux
 FROM nationalinstruments/labview:${LV_CONTAINER_TAG}
 
 ARG VIPM_DEB_URL

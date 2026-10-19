@@ -15,7 +15,8 @@
 # (and disguised the Aug 2026 bake outage's real cause - the baked
 # LV_RTE_HEADLESS below - as a version mismatch for weeks). The default here
 # only covers ad-hoc local builds.
-ARG LV_CONTAINER_TAG=2026q1patch2-windows
+#ARG LV_CONTAINER_TAG=2026q1patch2-windows
+ARG LV_CONTAINER_TAG=2026q3-windows
 FROM nationalinstruments/labview:${LV_CONTAINER_TAG}
 
 SHELL ["powershell", "-NoLogo", "-NoProfile", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
