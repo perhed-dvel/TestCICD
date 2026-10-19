@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
+  "short": "305d9ed",
+  "platform": "windows",
+  "repo": "perhed-dvel/TestCICD",
+  "pages_url": "https://perhed-dvel.github.io/TestCICD",
+  "dash_url": "https://perhed-dvel.github.io/TestCICD/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Merge branch 'main' of github.com:perhed-dvel/TestCICD",
+   "author": "Per Hedlund",
+   "date": "2026-10-19T15:31:27+02:00"
+  },
+  "generated_utc": "2026-10-19 13:46 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 1
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
