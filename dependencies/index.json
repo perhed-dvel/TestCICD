@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "ad4b790eef5fb4fafa2327792594cfc26e4d3caa",
+  "sha": "de6853f2e443a8535f52cd1bde61114f51197ea3",
   "revisions": [
+    {
+      "sha": "de6853f2e443a8535f52cd1bde61114f51197ea3",
+      "short": "de6853f",
+      "message": "Updated dockerfile to use 2026q3 image",
+      "author": "Per Hedlund",
+      "date": "2026-10-19T10:48:32Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "ad4b790eef5fb4fafa2327792594cfc26e4d3caa",
       "short": "ad4b790",
