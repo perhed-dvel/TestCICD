@@ -2,6 +2,6 @@
   "version": "linux-4ce478ba9bb6",
   "platform": "linux",
   "manifest_url": "https://perhed-dvel.github.io/TestCICD/workers/linux/linux-4ce478ba9bb6/manifest.html",
-  "build_date": "2026-10-19T13:13:39Z",
-  "git_sha": "5d6878f1ed0a402cb4c1a33aea5f0ea15dfe8668"
+  "build_date": "2026-10-19T13:14:03Z",
+  "git_sha": "c8b0e6ae57480a63d579a06792db3d0b83d071b6"
 }
