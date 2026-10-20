@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
+  "sha": "51acfd47a1ae0593a60421119af4e70c01cf0a65",
   "revisions": [
+    {
+      "sha": "51acfd47a1ae0593a60421119af4e70c01cf0a65",
+      "short": "51acfd4",
+      "message": "Added check if vipc file already exists.",
+      "author": "Per Hedlund",
+      "date": "2026-10-20T07:08:47Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
       "short": "305d9ed",
