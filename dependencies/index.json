@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "51acfd47a1ae0593a60421119af4e70c01cf0a65",
+  "sha": "efd6259518f41a14f517a1cb0d7de84d1ce700e3",
   "revisions": [
+    {
+      "sha": "efd6259518f41a14f517a1cb0d7de84d1ce700e3",
+      "short": "efd6259",
+      "message": "Added check if files are the same for all copy2 operations.",
+      "author": "Per Hedlund",
+      "date": "2026-10-20T07:26:50Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "51acfd47a1ae0593a60421119af4e70c01cf0a65",
       "short": "51acfd4",
