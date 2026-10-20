@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "efd6259518f41a14f517a1cb0d7de84d1ce700e3",
+  "sha": "140824c925059b28e80f9895c9eb3c8f79757325",
   "revisions": [
+    {
+      "sha": "140824c925059b28e80f9895c9eb3c8f79757325",
+      "short": "140824c",
+      "message": "Added exception to copy file.",
+      "author": "Per Hedlund",
+      "date": "2026-10-20T09:14:42Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "efd6259518f41a14f517a1cb0d7de84d1ce700e3",
       "short": "efd6259",
