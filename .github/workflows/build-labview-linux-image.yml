@@ -278,7 +278,7 @@ jobs:
               try:
                 shutil.copy2(p, dest / os.path.basename(p))
               except shutil.SameFileError:
-                print("Files are identical, no copy needed.")
+                print("Files are the same, no copy needed.")
               print('Staged VIPC:', p); staged += 1
             else:
               print('Configured VIPC not found (skipping):', p)
