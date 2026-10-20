@@ -275,7 +275,10 @@ jobs:
           staged = 0
           for p in paths:
             if os.path.isfile(p):
-              shutil.copy2(p, dest / os.path.basename(p))
+              try:
+                shutil.copy2(p, dest / os.path.basename(p))
+              except shutil.SameFileError:
+                print("Files are identical, no copy needed.")
               print('Staged VIPC:', p); staged += 1
             else:
               print('Configured VIPC not found (skipping):', p)
