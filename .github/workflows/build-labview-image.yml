@@ -413,6 +413,8 @@ jobs:
                       shutil.copy2(p, dest / os.path.basename(p))
                   except shutil.SameFileError:
                       print("Files are the same, no copy needed.")
+                  except shutil.PermissionError as e:
+                      raise Exception(f"Permission error for file {p}") from e
                   print('Staged VIPC:', p); staged += 1
               else:
                   print('Configured VIPC not found (skipping):', p)
@@ -432,6 +434,8 @@ jobs:
                       shutil.copy2(vipc_path, dest / os.path.basename(vipc_path))
                   except shutil.SameFileError:
                       print("Files are the same, no copy needed.")
+                  except shutil.PermissionError as e:
+                      raise Exception(f"Permission error for file {p}") from e
                   print('Staged capability VIPC:', vipc_path); staged += 1
               elif os.path.isfile(vipc_path):
                   print('Capability VIPC present but capability not installed (skipping):', vipc_path)
@@ -455,6 +459,8 @@ jobs:
                       shutil.copy2(p, dest / os.path.basename(p))
                   except shutil.SameFileError:
                       print("Files are the same, no copy needed.")
+                  except shutil.PermissionError as e:
+                      raise Exception(f"Permission error for file {p}") from e
                   print('Staged Dragon:', p); dstaged += 1
               else:
                   print('Configured Dragon not found (skipping):', p)
@@ -478,6 +484,8 @@ jobs:
                       shutil.copy2(p, dest / os.path.basename(p))
                   except shutil.SameFileError:
                       print("Files are the same, no copy needed.")
+                  except shutil.PermissionError as e:
+                      raise Exception(f"Permission error for file {p}") from e
                   print('Staged VIP:', p); vstaged += 1
           if not vstaged:
               print('No VIP files to stage.')
