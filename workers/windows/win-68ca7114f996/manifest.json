@@ -10,9 +10,9 @@
   "worker_layer": "repo-vipc-layer",
   "copied_from_base": false,
   "image_ref": "ghcr.io/perhed-dvel/testcicd-labview:win-68ca7114f996",
-  "build_date": "2026-10-19T09:54:26Z",
-  "git_sha": "ad4b790eef5fb4fafa2327792594cfc26e4d3caa",
-  "run_url": "https://github.com/perhed-dvel/TestCICD/actions/runs/39226542215",
+  "build_date": "2026-10-20T10:47:58Z",
+  "git_sha": "b4189dfe3425a1b051d4739c968f6419addc2396",
+  "run_url": "https://github.com/perhed-dvel/TestCICD/actions/runs/39404082392",
   "vipc": [
     {
       "file": "ci-tooling.vipc",
