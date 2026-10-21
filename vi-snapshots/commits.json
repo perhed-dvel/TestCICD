@@ -1,10 +1,10 @@
 [
   {
-    "sha": "305d9edd054a9eb7314557759f961fe4946b88f8",
-    "short": "305d9ed",
-    "message": "Merge branch 'main' of github.com:perhed-dvel/TestCICD",
+    "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
+    "short": "8ed4633",
+    "message": "Merge pull request #5 from perhed-dvel/per-dev",
     "author": "Per Hedlund",
-    "date": "2026-10-19T15:31:27+02:00",
+    "date": "2026-10-21T10:55:26+02:00",
     "vi_count": 263
   }
 ]
