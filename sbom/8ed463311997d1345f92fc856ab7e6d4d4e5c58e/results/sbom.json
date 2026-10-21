@@ -1,0 +1,158 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+      "description": "This is an infrastructure package for NI Software.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.ni.com"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "246ec18df75eb2d1bf37435e8fd426d5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f67a2aeeb33a66e2bdb9446fbf5b4060e911bb90750e6aef1167eb47eec64b06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "NI Software License Agreement for Released Products"
+          }
+        }
+      ],
+      "name": "ni-labview-2026-vilib",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "NI LabVIEW (64-bit) VI Library"
+        },
+        {
+          "name": "vipm:display-version",
+          "value": "2026 Q3"
+        }
+      ],
+      "purl": "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+      "supplier": {
+        "contact": [
+          {
+            "email": "support@ni.com"
+          }
+        ],
+        "name": "National Instruments"
+      },
+      "type": "library",
+      "version": "26.3.0.49792-0+f640"
+    },
+    {
+      "bom-ref": "pkg:vipm/delacor_lib_qmh@7.1.2.1547",
+      "description": "The DQMH project template is based on the NI Queued Message Handler Project Template (NI QMH). The DQMH project template improves on the NI QMH by providing safe, event-based message handling and scripting tools to make development easy, encourage same style between different developers in the same project and improve efficiency. \n\nDQMH modules are best used in applications where there needs to be multiple modules running in parallel that communicate with each other. \n\nDQMH modules can also be used for applications that have a single module, where the developer would benefit from having an API Tester has the capability of eavesdropping on the different DQMH events and messages.\n\nThis package includes the Queue and Admin classes used by the DQMH modules.",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://dqmh.org"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fc6d688c1149060986140ade34878032920e51b30d9f30fd64423fadd09c60aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Custom"
+          }
+        }
+      ],
+      "name": "delacor_lib_qmh",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "DQMH Framework: Palette"
+        }
+      ],
+      "purl": "pkg:vipm/delacor_lib_qmh@7.1.2.1547",
+      "supplier": {
+        "name": "DQMH Consortium"
+      },
+      "type": "library",
+      "version": "7.1.2.1547"
+    },
+    {
+      "bom-ref": "pkg:vipm/jki_lib_caraya@1.4.4.148",
+      "description": "Caraya Unit Test Framework is an open source unit testing framework for LabVIEW. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use for debugging into unit test cases with nearly no effort. Even running the tests is easy, just run the test case VI. Caraya significantly lowers the barrier for developers to write unit tests leading into improved overall code quality in real-world projects where developers don’t always have the luxury to write unit test cases first.\n\nIt runs on real-time targets and in the run-time engine too!\n\nTo learn more visit\n\nhttp://jki.net/tools#caraya",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/JKISoftware/Caraya"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb861e25b23f3f3150f50cef8d7737a26d3acfc4af94538b27c72e88c8ea064f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "New BSD"
+          }
+        }
+      ],
+      "name": "jki_lib_caraya",
+      "properties": [
+        {
+          "name": "vipm:display-name",
+          "value": "Caraya Unit Test Framework"
+        }
+      ],
+      "purl": "pkg:vipm/jki_lib_caraya@1.4.4.148",
+      "supplier": {
+        "name": "JKI"
+      },
+      "type": "library",
+      "version": "1.4.4.148"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:nipkg/ni-labview-2026-vilib@26.3.0.49792-0%2Bf640",
+        "pkg:vipm/delacor_lib_qmh@7.1.2.1547",
+        "pkg:vipm/jki_lib_caraya@1.4.4.148"
+      ],
+      "ref": "pkg:vipm/DQMH_Example"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:vipm/DQMH_Example",
+      "name": "DQMH_Example",
+      "type": "application"
+    },
+    "timestamp": "2026-10-21T09:12:05.019Z",
+    "tools": {
+      "components": [
+        {
+          "name": "vipm-cli",
+          "publisher": "JKI",
+          "type": "application",
+          "version": "2026.3.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:0a23ccc2-9b54-4823-9be2-d3ea47c947f5",
+  "specVersion": "1.5",
+  "version": 1
+}
