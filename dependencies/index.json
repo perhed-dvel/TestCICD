@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "b4189dfe3425a1b051d4739c968f6419addc2396",
+  "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
   "revisions": [
+    {
+      "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
+      "short": "8ed4633",
+      "message": "Merge pull request #5 from perhed-dvel/per-dev",
+      "author": "Per Hedlund",
+      "date": "2026-10-21T08:55:26Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5b65edaaf266aa4ad143825d78243ac5f0a98aa1",
+      "short": "5b65eda",
+      "message": "Added dummy button. Made unit test fail.",
+      "author": "Per Hedlund",
+      "date": "2026-10-21T08:13:04Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "b4189dfe3425a1b051d4739c968f6419addc2396",
       "short": "b4189df",
