@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "sha": "d199ed315a721490d099874dfe045010dfcbe536",
+  "short": "d199ed3",
+  "platform": "windows",
+  "repo": "perhed-dvel/TestCICD",
+  "pages_url": "https://perhed-dvel.github.io/TestCICD",
+  "dash_url": "https://perhed-dvel.github.io/TestCICD/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Merge 5b65edaaf266aa4ad143825d78243ac5f0a98aa1 into b4189dfe3425a1b051d4739c968f6419addc2396",
+   "author": "Per Hedlund",
+   "date": "2026-10-21T10:16:29+02:00"
+  },
+  "generated_utc": "2026-10-21 08:32 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 3
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  },
+  {
+   "name": "delacor_lib_qmh",
+   "version": "7.1.2.1547",
+   "vendor": "DQMH Consortium"
+  },
+  {
+   "name": "jki_lib_caraya",
+   "version": "1.4.4.148",
+   "vendor": "JKI"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
