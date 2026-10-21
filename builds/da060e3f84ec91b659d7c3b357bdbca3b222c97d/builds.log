@@ -1,0 +1,879 @@
+=== ExecuteBuildSpec 'CML' [EXE] target 'My Computer' in DQMH_Example\DQMH_Example.lvproj ===
+LabVIEWCLI started logging in file:  C:\Users\ContainerAdministrator\AppData\Local\Temp\lvtemporary_742466.log
+Using LabVIEW: "C:\Program Files\National Instruments\LabVIEW 2026\LabVIEW.exe"
+LabVIEW launched successfully.
+Connection established with LabVIEW at port number 3363.
+
+LabVIEWCLI.exe : Operation output: 
+At C:\workspace\.github\labview\build-binaries.ps1:252 char:12
++     $out = & $CliExe @cliArgs 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Operation output: :String) [], Re 
+   moteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Error Code : 1
+Error Message : Cannot complete build because following VI loaded broken:
+
+C:\workspace\DQMH_Example\CML Main.vi
+
+Open the VI in LabVIEW and fix the listed errors. If the VI loads as expected 
+but errors are still detected during the build, contact National Instruments 
+technical support for assistance.
+
+Broken VIs:
+- Acquisition.lvlib:Close Module.vi:
+	LabVIEW Object 'Module Admin out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	Wire: Class conflict
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Acquisition.lvlib:Error Reported.vi:
+	SubVI 'Delacor_lib_QMH_DQMH Error Tags--constant.vi': SubVI is missing
+
+- Acquisition.lvlib:Handle Exit.vi:
+	LabVIEW Object 'Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Acquisition.lvlib:Init Module.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node: Contains unwired or bad terminal
+
+	Property Node: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Acquisition.lvlib:Main.vi:
+	LabVIEW Object 'Module Admin': Refers to a missing LabVIEW class
+
+	SubVI 'Settings Editor.lvlib:Start Module.vi': SubVI is not executable
+
+	Local Variable 'Acquisition.lvlib:Main.vi': Contains unwired or bad terminal
+
+	SubVI 'Acquisition.lvlib:Close Module.vi': SubVI is not executable
+
+	SubVI 'Acquisition.lvlib:Init Module.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Helper Loop.vi': 
+The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Helper Loop.vi': 
+SubVI is missing
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': The wired 
+class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': SubVI is 
+missing
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': SubVI is missing
+
+	SubVI 'Acquisition.lvlib:Synchronize Caller Events.vi': SubVI is not 
+executable
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	SubVI 'Acquisition.lvlib:Error Reported.vi': SubVI is not executable
+
+	You have connected two terminals of different types.
+
+	SubVI 'Acquisition.lvlib:Error Reported.vi': SubVI is not executable
+
+	SubVI 'Acquisition.lvlib:Handle Exit.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	SubVI 'Acquisition.lvlib:Synchronize Caller Events.vi': SubVI is not 
+executable
+
+	SubVI 'Acquisition.lvlib:Error Reported.vi': SubVI is not executable
+
+	Wire: Class conflict
+
+	SubVI 'Delacor_lib_QMH_Create Message Queue.vi': SubVI is missing
+
+- Acquisition.lvlib:Start Module.vi:
+	VI Refnum 'type specifier VI Refnum (for type only)': Refers to a missing 
+LabVIEW class
+
+	Start Asynchronous Call 'Start Asynchronous Call': Contains unwired or bad 
+terminal
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	LabVIEW Object 'Mod Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	You have connected two terminals of different types.
+
+	Wire: Class conflict
+
+- Acquisition.lvlib:Synchronize Caller Events.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- CML UI.lvlib:Close Module.vi:
+	LabVIEW Object 'Module Admin out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	Wire: Class conflict
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- CML UI.lvlib:Error Reported.vi:
+	SubVI 'Delacor_lib_QMH_DQMH Error Tags--constant.vi': SubVI is missing
+
+- CML UI.lvlib:Handle Exit.vi:
+	LabVIEW Object 'Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- CML UI.lvlib:Init Module.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node: Contains unwired or bad terminal
+
+	Property Node: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- CML UI.lvlib:Main.vi:
+	LabVIEW Object 'Module Admin': Refers to a missing LabVIEW class
+
+	SubVI 'Logger.lvlib:Start Module.vi': SubVI is not executable
+
+	SubVI 'Acquisition.lvlib:Start Module.vi': SubVI is not executable
+
+	SubVI 'Settings Editor.lvlib:Start Module.vi': SubVI is not executable
+
+	Local Variable 'CML UI.lvlib:Main.vi': Contains unwired or bad terminal
+
+	SubVI 'CML UI.lvlib:Close Module.vi': SubVI is not executable
+
+	SubVI 'CML UI.lvlib:Init Module.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	SubVI 'DQMH_About Box.vi': SubVI is missing
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': The wired 
+class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': SubVI is 
+missing
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': SubVI is missing
+
+	SubVI 'CML UI.lvlib:Synchronize Caller Events.vi': SubVI is not executable
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	SubVI 'CML UI.lvlib:Error Reported.vi': SubVI is not executable
+
+	You have connected two terminals of different types.
+
+	SubVI 'CML UI.lvlib:Error Reported.vi': SubVI is not executable
+
+	SubVI 'CML UI.lvlib:Handle Exit.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	SubVI 'CML UI.lvlib:Synchronize Caller Events.vi': SubVI is not executable
+
+	SubVI 'CML UI.lvlib:Error Reported.vi': SubVI is not executable
+
+	Wire: Class conflict
+
+	SubVI 'Delacor_lib_QMH_Create Message Queue.vi': SubVI is missing
+
+- CML UI.lvlib:Start Module.vi:
+	VI Refnum 'type specifier VI Refnum (for type only)': Refers to a missing 
+LabVIEW class
+
+	Start Asynchronous Call 'Start Asynchronous Call': Contains unwired or bad 
+terminal
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	LabVIEW Object 'Mod Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	You have connected two terminals of different types.
+
+	Wire: Class conflict
+
+- CML UI.lvlib:Synchronize Caller Events.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Logger.lvlib:Close Module.vi:
+	LabVIEW Object 'Module Admin out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	Wire: Class conflict
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Logger.lvlib:Error Reported.vi:
+	SubVI 'Delacor_lib_QMH_DQMH Error Tags--constant.vi': SubVI is missing
+
+- Logger.lvlib:Handle Exit.vi:
+	LabVIEW Object 'Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Logger.lvlib:Init Module.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node: Contains unwired or bad terminal
+
+	Property Node: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Logger.lvlib:Main.vi:
+	LabVIEW Object 'Module Admin': Refers to a missing LabVIEW class
+
+	SubVI 'Settings Editor.lvlib:Start Module.vi': SubVI is not executable
+
+	Local Variable 'Logger.lvlib:Main.vi': Contains unwired or bad terminal
+
+	SubVI 'Logger.lvlib:Close Module.vi': SubVI is not executable
+
+	SubVI 'Logger.lvlib:Init Module.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': The wired 
+class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': SubVI is 
+missing
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': SubVI is missing
+
+	SubVI 'Logger.lvlib:Synchronize Caller Events.vi': SubVI is not executable
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	SubVI 'Logger.lvlib:Error Reported.vi': SubVI is not executable
+
+	You have connected two terminals of different types.
+
+	SubVI 'Logger.lvlib:Error Reported.vi': SubVI is not executable
+
+	SubVI 'Logger.lvlib:Handle Exit.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	SubVI 'Logger.lvlib:Synchronize Caller Events.vi': SubVI is not executable
+
+	SubVI 'Logger.lvlib:Error Reported.vi': SubVI is not executable
+
+	Wire: Class conflict
+
+	SubVI 'Delacor_lib_QMH_Create Message Queue.vi': SubVI is missing
+
+- Logger.lvlib:Start Module.vi:
+	VI Refnum 'type specifier VI Refnum (for type only)': Refers to a missing 
+LabVIEW class
+
+	Start Asynchronous Call 'Start Asynchronous Call': Contains unwired or bad 
+terminal
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	LabVIEW Object 'Mod Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	You have connected two terminals of different types.
+
+	Wire: Class conflict
+
+- Logger.lvlib:Synchronize Caller Events.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Settings Editor.lvlib:Close Module.vi:
+	LabVIEW Object 'Module Admin out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	Wire: Class conflict
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Settings Editor.lvlib:Error Reported.vi:
+	SubVI 'Delacor_lib_QMH_DQMH Error Tags--constant.vi': SubVI is missing
+
+- Settings Editor.lvlib:Handle Exit.vi:
+	LabVIEW Object 'Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Settings Editor.lvlib:Init Module.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node: Contains unwired or bad terminal
+
+	Property Node: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+- Settings Editor.lvlib:Main.vi:
+	LabVIEW Object 'Module Admin': Refers to a missing LabVIEW class
+
+	Local Variable 'Settings Editor.lvlib:Main.vi': Contains unwired or bad 
+terminal
+
+	SubVI 'Settings Editor.lvlib:Close Module.vi': SubVI is not executable
+
+	SubVI 'Settings Editor.lvlib:Init Module.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Event Handling 
+Loop.vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': The wired 
+class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Dequeue Message.vi': SubVI is 
+missing
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': The wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Error Handler - Message Handling 
+Loop.vi': SubVI is missing
+
+	SubVI 'Settings Editor.lvlib:Synchronize Caller Events.vi': SubVI is not 
+executable
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Poly VI 'Delacor_lib_QMH_Enqueue Message (poly).vi': SubVI is missing
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	SubVI 'Settings Editor.lvlib:Error Reported.vi': SubVI is not executable
+
+	You have connected two terminals of different types.
+
+	SubVI 'Settings Editor.lvlib:Error Reported.vi': SubVI is not executable
+
+	SubVI 'Settings Editor.lvlib:Handle Exit.vi': SubVI is not executable
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	Wire: Class conflict
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': The 
+wired class does not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Release Message Queue.vi': SubVI 
+is missing
+
+	SubVI 'Settings Editor.lvlib:Synchronize Caller Events.vi': SubVI is not 
+executable
+
+	SubVI 'Settings Editor.lvlib:Error Reported.vi': SubVI is not executable
+
+	Wire: Class conflict
+
+	SubVI 'Delacor_lib_QMH_Create Message Queue.vi': SubVI is missing
+
+- Settings Editor.lvlib:Start Module.vi:
+	VI Refnum 'type specifier VI Refnum (for type only)': Refers to a missing 
+LabVIEW class
+
+	Start Asynchronous Call 'Start Asynchronous Call': Contains unwired or bad 
+terminal
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': The wired class does 
+not support a method of this VI's name.
+
+	LabVIEW Class Method SubVI 'Delacor_lib_QMH_Reset.vi': SubVI is missing
+
+	LabVIEW Object 'Mod Admin in': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+	You have connected two terminals of different types.
+
+	Wire: Class conflict
+
+- Settings Editor.lvlib:Synchronize Caller Events.vi:
+	LabVIEW Object 'Singleton Module Admin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'Singleton Module Admin out': Refers to a missing LabVIEW class
+
+	Property Node 'Property Node': Contains unwired or bad terminal
+
+	Property Node 'Property Node': Invalid property
+
+	PropItem: Invalid property
+
+	You have connected two terminals of different types.
+
+
+
+
+
+
+
+
+
+
+
+Click the link below to visit the Application Builder support page. Use the 
+following information as a reference:
+
+
+
+Error 1003 occurred at AB_Get_Detailed_BrokenVI_Message.vi -> 
+AB_Targetfile.lvclass:Open_Top_Level_VIs.vi
+
+
+Possible reason(s):
+
+
+LabVIEW: (Hex 0x3EB) The VI is not executable. This error may occur because 
+the VI is either broken or contains a subVI that LabVIEW cannot locate. Select 
+File>>Open to open the VI and verify that you can run it.
+An error occurred while running the ExecuteBuildSpec operation.
+
+ExecuteBuildSpec operation failed.
+
+
