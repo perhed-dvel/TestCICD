@@ -1,0 +1,10 @@
+{
+  "repo": "perhed-dvel/TestCICD",
+  "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
+  "ref": "refs/heads/main",
+  "platform": "linux",
+  "arch": "x86_64",
+  "labview_version": "2026",
+  "built_at": "2026-10-21T08:56:31Z",
+  "specs": []
+}
