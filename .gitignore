@@ -64,5 +64,6 @@ Source/test-results/
 *_DEL
 *_OLD
 *_NEW
-*.UserState
+*.UserState/
+.dragon/
 builds/
