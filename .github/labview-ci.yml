@@ -2,7 +2,7 @@
 # Updated by the Reconfigure workflow.
 schemaVersion: 1
 installedVersion: 4.16.3
-configuredAt: 2026-10-19T12:32:58Z
+configuredAt: 2026-10-21T10:07:58Z
 source:
   repo: elijah286/LabVIEW-CI-with-Containers
   ref: v4.16.3
@@ -17,6 +17,8 @@ config:
       - path: ".github/labview/vipm/ci-tooling.vipc"
         monitor: true
       - path: "DQMH_Example/Dependencies.vipc"
+        monitor: true
+      - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
       - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
@@ -49,7 +51,7 @@ unitTests:
     caraya:
       enabled: true
       locations:
-        - "*/Unit Tests/"
+        - "**/Unit Tests/"
     lunit:
       enabled: false
       locations: []
