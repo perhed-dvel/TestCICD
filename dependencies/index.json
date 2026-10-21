@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
+  "sha": "da060e3f84ec91b659d7c3b357bdbca3b222c97d",
   "revisions": [
+    {
+      "sha": "da060e3f84ec91b659d7c3b357bdbca3b222c97d",
+      "short": "da060e3",
+      "message": "Merge pull request #6 from perhed-dvel/labview-ci/reconfigure-39582294402",
+      "author": "Per Hedlund",
+      "date": "2026-10-21T10:11:30Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e78b72a396cb15720b6c544b63565653517de202",
+      "short": "e78b72a",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-10-21T10:07:58Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
       "short": "8ed4633",
@@ -213,6 +231,11 @@
       },
       {
         "path": "DQMH_Example/Dependencies.vipc",
+        "monitor": true,
+        "monitorOn": null
+      },
+      {
+        "path": "DQMH_Example/DQMH_Example.dragon",
         "monitor": true,
         "monitorOn": null
       },
