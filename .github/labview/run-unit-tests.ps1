@@ -297,7 +297,8 @@ function Resolve-TestRoots([string[]]$locations) {
 $DEFAULT_CMD = @{
     # Caraya CLI g-cli extension (lvos_lib_caraya_cli_extension): run every Caraya
     # test under a directory and export JUnit. Reference implementation.
-    'caraya'    = 'g-cli --lv-ver {ver} -- caraya -- --directory "{dir}" --junit "{out}"'
+    #'caraya'    = 'g-cli --lv-ver {ver} -- caraya -- --directory "{dir}" --junit "{out}"'
+    'caraya'    = 'g-cli --lv-ver "{ver}" -- caraya -- -s "{dir}" -x "{out}"'
     # JKI VI Tester via sas_workshops_lib_vitester_for_g_cli (scaffold).
     'vi-tester' = 'g-cli --lv-ver {ver} -- vitester -- --directory "{dir}" --junit "{out}"'
 }

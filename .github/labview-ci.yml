@@ -51,7 +51,7 @@ unitTests:
     caraya:
       enabled: true
       locations:
-        - "**/Unit Tests/"
+        - "DQMH_Example/Unit Tests"
     lunit:
       enabled: false
       locations: []
