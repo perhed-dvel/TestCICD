@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "sha": "43ac534fd63186de7ac1cedb1bfd46103f1a163c",
+  "short": "43ac534",
+  "platform": "windows",
+  "repo": "perhed-dvel/TestCICD",
+  "pages_url": "https://perhed-dvel.github.io/TestCICD",
+  "dash_url": "https://perhed-dvel.github.io/TestCICD/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Fixed caraya unit test args.",
+   "author": "Per Hedlund",
+   "date": "2026-10-22T14:52:19+02:00"
+  },
+  "generated_utc": "2026-10-22 13:12 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 1
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
