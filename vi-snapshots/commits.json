@@ -1,10 +1,10 @@
 [
   {
-    "sha": "8ed463311997d1345f92fc856ab7e6d4d4e5c58e",
-    "short": "8ed4633",
-    "message": "Merge pull request #5 from perhed-dvel/per-dev",
+    "sha": "43ac534fd63186de7ac1cedb1bfd46103f1a163c",
+    "short": "43ac534",
+    "message": "Fixed caraya unit test args.",
     "author": "Per Hedlund",
-    "date": "2026-10-21T10:55:26+02:00",
+    "date": "2026-10-22T14:52:19+02:00",
     "vi_count": 263
   }
 ]
