@@ -60,7 +60,8 @@ concurrency:
 
 jobs:
   build-binaries:
-    runs-on: windows-2022
+    #runs-on: windows-2022
+    runs-on: [self-hosted, windows, x64]
 
     steps:
       - name: Determine target SHA

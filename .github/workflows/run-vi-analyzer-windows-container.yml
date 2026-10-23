@@ -64,7 +64,8 @@ concurrency:
 
 jobs:
   vi-analyzer:
-    runs-on: windows-2022   # windows-latest = Server 2025, broken Docker daemon
+    #runs-on: windows-2022   # windows-latest = Server 2025, broken Docker daemon
+    runs-on: [self-hosted, windows, x64]
 
     steps:
       - name: Determine target SHA

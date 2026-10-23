@@ -103,7 +103,8 @@ jobs:
   render:
     needs: gate
     if: needs.gate.outputs.run == 'true'
-    runs-on: windows-2022
+    #runs-on: windows-2022
+    runs-on: [self-hosted, windows, x64]
     # Long enough for the worker-image wait (up to ~110 min on a cold first build)
     # plus the render itself, so a fresh-install render isn't killed mid-wait.
     timeout-minutes: 180

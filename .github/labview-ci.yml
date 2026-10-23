@@ -18,12 +18,6 @@ config:
         monitor: true
       - path: "DQMH_Example/Dependencies.vipc"
         monitor: true
-      - path: "DQMH_Example/DQMH_Example.dragon"
-        monitor: true
-      - path: "DQMH_Example/DQMH_Example.dragon"
-        monitor: true
-      - path: "DQMH_Example/DQMH_Example.dragon"
-        monitor: true
     dragon:
       - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
