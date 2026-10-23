@@ -2,7 +2,7 @@
 # Updated by the Reconfigure workflow.
 schemaVersion: 1
 installedVersion: 4.16.3
-configuredAt: 2026-10-21T10:07:58Z
+configuredAt: 2026-10-23T06:29:41Z
 source:
   repo: elijah286/LabVIEW-CI-with-Containers
   ref: v4.16.3
@@ -22,6 +22,8 @@ config:
         monitor: true
       - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
+      - path: "DQMH_Example/DQMH_Example.dragon"
+        monitor: true
     dragon:
       - path: "DQMH_Example/DQMH_Example.dragon"
         monitor: true
@@ -29,6 +31,12 @@ config:
     runAll: false
     specs:
       - "DQMH_Example/DQMH_Example.lvproj::CML::windows"
+  actionOs:
+    builds: windows
+    masscompile: linux
+    snapshots-2: linux
+    vi-analyzer: linux
+    vidiff: linux
 activities:
   - dashboard
   - masscompile
