@@ -86,6 +86,7 @@ RUN $ErrorActionPreference = 'Continue'; `
       $env:Path = $dir + ';' + $env:Path `
     }; `
     function Test-GitOk { try { $v = & git --version 2>$null; return ($LASTEXITCODE -eq 0 -and $v) } catch { return $false } }; `
+    function Test-BashOk { try { $v = & bash --version 2>$null; return ($LASTEXITCODE -eq 0 -and $v) } catch { return $false } }; `
     $ok = $false; `
     if (Get-Command winget -ErrorAction SilentlyContinue) { `
       Write-Host 'Installing Git via winget (Git.Git) ...'; `
@@ -117,7 +118,10 @@ RUN $ErrorActionPreference = 'Continue'; `
       } catch { Write-Host ('MinGit fallback failed: ' + $_.Exception.Message) } finally { Remove-Item $gitZip -Force -ErrorAction SilentlyContinue } `
     }; `
     if ($ok) { Write-Host ('Installed Git: ' + (& git --version)) } `
-    else { Write-Host '::warning::No Git could be installed; VIPM Community Edition cannot verify repository visibility.' }
+    else { Write-Host '::warning::No Git could be installed; VIPM Community Edition cannot verify repository visibility.' } `
+    Add-MachinePath 'C:\Program Files\Git\bin'; `
+    if (Test-BashOk) { Write-Host ('Bash: ' + (& bash --version)) } `
+    else { Write-Host '::warning::Bash path invalid.' }
 
 LABEL com.cotc.ci-base.kind=labview-ci `
       com.cotc.ci-base.platform=windows
