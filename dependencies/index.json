@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "df156cd0a9f539712c255b516831baa1ee6095c6",
+  "sha": "e3b6ed11735a37636a7a7b35323a72fdbed1a011",
   "revisions": [
+    {
+      "sha": "e3b6ed11735a37636a7a7b35323a72fdbed1a011",
+      "short": "e3b6ed1",
+      "message": "Added self-hosted runner",
+      "author": "Per Hedlund",
+      "date": "2026-10-23T07:38:52Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "df156cd0a9f539712c255b516831baa1ee6095c6",
       "short": "df156cd",
@@ -260,21 +269,6 @@
         "path": "DQMH_Example/Dependencies.vipc",
         "monitor": true,
         "monitorOn": null
-      },
-      {
-        "path": "DQMH_Example/DQMH_Example.dragon",
-        "monitor": true,
-        "monitorOn": null
-      },
-      {
-        "path": "DQMH_Example/DQMH_Example.dragon",
-        "monitor": true,
-        "monitorOn": null
-      },
-      {
-        "path": "DQMH_Example/DQMH_Example.dragon",
-        "monitor": true,
-        "monitorOn": null
       }
     ],
     "dragon": [
@@ -357,21 +351,6 @@
         "oglib_string-6.0.2.35"
       ],
       "error": ""
-    },
-    {
-      "path": "DQMH_Example/DQMH_Example.dragon",
-      "role": "project",
-      "capability": "",
-      "tooling": false,
-      "configured": true,
-      "monitored": true,
-      "monitorOn": [
-        "windows",
-        "linux"
-      ],
-      "locked": false,
-      "packages": [],
-      "error": "File is not a zip file"
     }
   ],
   "nipm": [
