@@ -6,7 +6,8 @@
 # optional VIPC layer and worker-version labels. Repositories with no VIPC files
 # can skip this build and simply tag/push the base image as their own worker.
 # =============================================================================
-ARG LCWC_BASE_IMAGE=ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026
+#ARG LCWC_BASE_IMAGE=ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026
+ARG LCWC_BASE_IMAGE=ghcr.io/perhed-dvel/testcicd-labview-base:2026
 FROM ${LCWC_BASE_IMAGE}
 
 SHELL ["powershell", "-NoLogo", "-NoProfile", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
