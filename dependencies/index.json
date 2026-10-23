@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "f8a3621a811149abcf5ac05d5dcf48729b430ed9",
+  "sha": "e9d64a5f56a255e3c36f2aeed4580b7823ab6239",
   "revisions": [
+    {
+      "sha": "e9d64a5f56a255e3c36f2aeed4580b7823ab6239",
+      "short": "e9d64a5",
+      "message": "Changed base image to own repo",
+      "author": "Per Hedlund",
+      "date": "2026-10-23T12:32:03Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "f8a3621a811149abcf5ac05d5dcf48729b430ed9",
       "short": "f8a3621",
@@ -435,7 +444,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-68ca7114f996",
+    "manifest_version": "win-19cff70f5932",
     "files": [
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
@@ -2927,7 +2936,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-68ca7114f996"
+      "version": "win-19cff70f5932"
     },
     {
       "key": "linux",
