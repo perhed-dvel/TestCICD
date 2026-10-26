@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "7519d95590d5b0de060158843e5b2b37d04fa892",
+  "sha": "cf53770be1b496b1983d4f48e657334c14688493",
   "revisions": [
+    {
+      "sha": "cf53770be1b496b1983d4f48e657334c14688493",
+      "short": "cf53770",
+      "message": "Updated base image in dockerfile",
+      "author": "Per Hedlund",
+      "date": "2026-10-26T13:01:40Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "7519d95590d5b0de060158843e5b2b37d04fa892",
       "short": "7519d95",
@@ -453,7 +462,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-19cff70f5932",
+    "manifest_version": "win-89bc1adaa0a9",
     "files": [
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
@@ -868,24 +877,12 @@
           "version": "26.5.0.49222-0+f70"
         },
         {
-          "name": "ni-ceip",
-          "version": "25.0.0.49234-0+f82"
-        },
-        {
           "name": "ni-ceip-common",
           "version": "26.5.0.49222-0+f70"
         },
         {
-          "name": "ni-ceip-common",
-          "version": "25.0.0.49234-0+f82"
-        },
-        {
           "name": "ni-ceip-x86",
           "version": "26.5.0.49222-0+f70"
-        },
-        {
-          "name": "ni-ceip-x86",
-          "version": "25.0.0.49234-0+f82"
         },
         {
           "name": "ni-certificates",
@@ -962,10 +959,6 @@
         {
           "name": "ni-curl",
           "version": "26.5.0.49176-0+f24"
-        },
-        {
-          "name": "ni-curl",
-          "version": "25.0.0.49165-0+f13"
         },
         {
           "name": "ni-cvi-2026-reflector",
@@ -1128,10 +1121,6 @@
           "version": "25.0.0.49226-0+f74"
         },
         {
-          "name": "ni-error-reporting-interface",
-          "version": "25.0.0.49225-0+f73"
-        },
-        {
           "name": "ni-error-reporting-native",
           "version": "26.5.0.49216-0+f64"
         },
@@ -1144,20 +1133,12 @@
           "version": "26.5.0.49245-0+f93"
         },
         {
-          "name": "ni-euladepot",
-          "version": "25.0.0.49255-0+f103"
-        },
-        {
           "name": "ni-example-finder",
           "version": "26.3.0.49794-0+f642"
         },
         {
           "name": "ni-expat1-libs",
           "version": "26.5.0.49176-0+f24"
-        },
-        {
-          "name": "ni-expat1-libs",
-          "version": "25.0.0.49160-0+f8"
         },
         {
           "name": "ni-help-assistant",
@@ -1384,10 +1365,6 @@
           "version": "26.3.0.49246-0+f94"
         },
         {
-          "name": "ni-labview-unit-test-framework-toolkit-lic",
-          "version": "25.1.0.49238-0+f86"
-        },
-        {
           "name": "ni-labview-vi-analyzer-toolkit-lic",
           "version": "26.3.0.49275-0+f123"
         },
@@ -1404,16 +1381,8 @@
           "version": "26.5.0.49256-0+f104"
         },
         {
-          "name": "ni-license-manager",
-          "version": "25.0.0.49339-0+f187"
-        },
-        {
           "name": "ni-license-manager-compatibility-server",
           "version": "26.5.0.49698-0+f546"
-        },
-        {
-          "name": "ni-license-manager-compatibility-server",
-          "version": "25.0.0.49676-0+f524"
         },
         {
           "name": "ni-lm-client-26.0",
@@ -1504,10 +1473,6 @@
           "version": "26.3.0.49249-0+f97"
         },
         {
-          "name": "ni-lvutf-offline-manual-en",
-          "version": "25.1.0.49238-0+f86"
-        },
-        {
           "name": "ni-lvvia-offline-manual-en",
           "version": "26.3.0.49277-0+f125"
         },
@@ -1536,16 +1501,8 @@
           "version": "26.5.0.49246-0+f94"
         },
         {
-          "name": "ni-mdfsupport",
-          "version": "25.0.0.49255-0+f103"
-        },
-        {
           "name": "ni-mdnsresponder",
           "version": "26.0.0.49260-0+f108"
-        },
-        {
-          "name": "ni-mdnsresponder",
-          "version": "25.0.0.49276-0+f124"
         },
         {
           "name": "ni-mesa",
@@ -1554,10 +1511,6 @@
         {
           "name": "ni-metauninstaller",
           "version": "26.5.0.49246-0+f94"
-        },
-        {
-          "name": "ni-metauninstaller",
-          "version": "25.0.0.49255-0+f103"
         },
         {
           "name": "ni-mkl-2020",
@@ -1574,10 +1527,6 @@
         {
           "name": "ni-msdotnet-desktop-runtime-80",
           "version": "26.5.0.49173-0+f21"
-        },
-        {
-          "name": "ni-msdotnet-desktop-runtime-80",
-          "version": "25.0.0.49181-0+f29"
         },
         {
           "name": "ni-msdotnet-desktop-runtime-80-x86",
@@ -1692,16 +1641,8 @@
           "version": "26.5.0.49220-0+f68"
         },
         {
-          "name": "ni-msvcrt-2015",
-          "version": "25.0.0.49176-0+f24"
-        },
-        {
           "name": "ni-mswebview2",
           "version": "26.5.0.49173-0+f21"
-        },
-        {
-          "name": "ni-mswebview2",
-          "version": "25.0.0.49177-0+f25"
         },
         {
           "name": "ni-mxs",
@@ -1710,10 +1651,6 @@
         {
           "name": "ni-networkdiscoverysvc",
           "version": "26.5.0.49267-0+f115"
-        },
-        {
-          "name": "ni-networkdiscoverysvc",
-          "version": "25.0.0.49281-0+f129"
         },
         {
           "name": "ni-nigel-local-service",
@@ -1736,10 +1673,6 @@
           "version": "26.5.0.49204-0+f52"
         },
         {
-          "name": "ni-offline-help-viewer",
-          "version": "25.0.0.49202-0+f50"
-        },
-        {
           "name": "ni-opc-support",
           "version": "26.5.0.49333-0+f181"
         },
@@ -1752,16 +1685,8 @@
           "version": "26.5.0.49224-0+f72"
         },
         {
-          "name": "ni-openssl3-libs",
-          "version": "25.0.0.49166-0+f14"
-        },
-        {
           "name": "ni-openssl3-libs-x86",
           "version": "26.5.0.49224-0+f72"
-        },
-        {
-          "name": "ni-openssl3-libs-x86",
-          "version": "25.0.0.49166-0+f14"
         },
         {
           "name": "ni-package-builder-labview-2026-support",
@@ -2436,10 +2361,6 @@
           "version": "26.5.0.49267-0+f115"
         },
         {
-          "name": "ni-portable-configuration",
-          "version": "25.0.0.49280-0+f128"
-        },
-        {
           "name": "ni-python-interface",
           "version": "26.3.0.49370-0+f218"
         },
@@ -2460,10 +2381,6 @@
           "version": "26.5.0.49267-0+f115"
         },
         {
-          "name": "ni-remote-configuration",
-          "version": "25.0.0.49281-0+f129"
-        },
-        {
           "name": "ni-resetniconfig",
           "version": "26.0.0.49263-0+f111"
         },
@@ -2476,10 +2393,6 @@
           "version": "26.5.0.49394-0+f242"
         },
         {
-          "name": "ni-rpc",
-          "version": "25.0.0.49262-0+f110"
-        },
-        {
           "name": "ni-search",
           "version": "26.3.0.49790-0+f638"
         },
@@ -2490,10 +2403,6 @@
         {
           "name": "ni-securityupdate-kb67l8lcqw-killbits",
           "version": "2.1.0.49154-0+f2"
-        },
-        {
-          "name": "ni-securityupdate-kb67l8lcqw-killbits",
-          "version": "2.1.0.49153-0+f1"
         },
         {
           "name": "ni-skyline-alarminstance-service",
@@ -2584,16 +2493,8 @@
           "version": "26.5.0.49327-0+f175"
         },
         {
-          "name": "ni-svcloc",
-          "version": "25.1.0.49319-0+f167"
-        },
-        {
           "name": "ni-sysapi",
           "version": "26.5.0.49267-0+f115"
-        },
-        {
-          "name": "ni-sysapi",
-          "version": "25.0.0.49281-0+f129"
         },
         {
           "name": "ni-sysapi-webservice",
@@ -2602,10 +2503,6 @@
         {
           "name": "ni-syscfg-dotnet-runtime",
           "version": "26.5.0.49267-0+f115"
-        },
-        {
-          "name": "ni-syscfg-dotnet-runtime",
-          "version": "25.0.0.49281-0+f129"
         },
         {
           "name": "ni-syscfg-labview-support",
@@ -2618,10 +2515,6 @@
         {
           "name": "ni-syscfg-runtime",
           "version": "26.5.0.49267-0+f115"
-        },
-        {
-          "name": "ni-syscfg-runtime",
-          "version": "25.0.0.49281-0+f129"
         },
         {
           "name": "ni-sysdetails-webservice",
@@ -2702,10 +2595,6 @@
         {
           "name": "ni-utf-labview-support",
           "version": "26.3.0.49249-0+f97"
-        },
-        {
-          "name": "ni-utf-labview-support",
-          "version": "25.1.0.49239-0+f87"
         },
         {
           "name": "ni-variable-engine",
@@ -2945,7 +2834,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-19cff70f5932"
+      "version": "win-89bc1adaa0a9"
     },
     {
       "key": "linux",
