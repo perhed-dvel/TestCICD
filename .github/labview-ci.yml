@@ -15,12 +15,12 @@ config:
     use: latest
     vipc:
       - path: ".github/labview/vipm/ci-tooling.vipc"
-        monitor: true
+        monitor: false
       - path: "DQMH_Example/Dependencies.vipc"
         monitor: true
     dragon:
       - path: "DQMH_Example/DQMH_Example.dragon"
-        monitor: true
+        monitor: false
   builds:
     runAll: false
     specs:
