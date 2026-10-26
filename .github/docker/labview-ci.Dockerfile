@@ -8,8 +8,7 @@
 # =============================================================================
 
 #ARG LCWC_BASE_IMAGE=ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026
-#ARG LCWC_BASE_IMAGE=ghcr.io/perhed-dvel/testcicd-labview-base:2026
-ARG LCWC_BASE_IMAGE=prevas/labview-ci-base:2026q3-windows
+ARG LCWC_BASE_IMAGE=ghcr.io/perhed-dvel/testcicd-labview-base:2026
 FROM ${LCWC_BASE_IMAGE}
 
 SHELL ["powershell", "-NoLogo", "-NoProfile", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
