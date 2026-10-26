@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "e9d64a5f56a255e3c36f2aeed4580b7823ab6239",
+  "sha": "7519d95590d5b0de060158843e5b2b37d04fa892",
   "revisions": [
+    {
+      "sha": "7519d95590d5b0de060158843e5b2b37d04fa892",
+      "short": "7519d95",
+      "message": "Updated dockerfiles",
+      "author": "Per Hedlund",
+      "date": "2026-10-26T12:46:25Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "e9d64a5f56a255e3c36f2aeed4580b7823ab6239",
       "short": "e9d64a5",
@@ -280,7 +289,7 @@
     "vipc": [
       {
         "path": ".github/labview/vipm/ci-tooling.vipc",
-        "monitor": true,
+        "monitor": false,
         "monitorOn": null
       },
       {
@@ -292,7 +301,7 @@
     "dragon": [
       {
         "path": "DQMH_Example/DQMH_Example.dragon",
-        "monitor": true,
+        "monitor": false,
         "monitorOn": null
       }
     ],
@@ -449,7 +458,7 @@
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
         "dependencies": [],
-        "monitored": true
+        "monitored": false
       }
     ],
     "install_set": [],
