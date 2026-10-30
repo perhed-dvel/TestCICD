@@ -8,22 +8,27 @@
   "snap_base": "https://perhed-dvel.github.io/TestCICD/vi-snapshots/",
   "dash_url": "https://perhed-dvel.github.io/TestCICD/",
   "labview_version": "2026",
-  "tools": [],
+  "tools": [
+   {
+    "id": "caraya",
+    "label": "Caraya"
+   }
+  ],
   "commit": {
    "message": "Fixed caraya unit test args.",
    "author": "Per Hedlund",
    "date": "2026-10-22T14:52:19+02:00"
   },
-  "generated_utc": "2026-10-22 13:44 UTC"
+  "generated_utc": "2026-10-30 09:39 UTC"
  },
  "summary": {
-  "tests": 0,
-  "passed": 0,
+  "tests": 1,
+  "passed": 1,
   "failed": 0,
   "errored": 0,
   "skipped": 0,
-  "percent": 0,
-  "status": "empty",
+  "percent": 100,
+  "status": "passed",
   "duration": 0.0
  },
  "status_order": [
@@ -64,7 +69,31 @@
    "url": "linux/results.json"
   }
  ],
- "suites": [],
+ "suites": [
+  {
+   "tool": "caraya",
+   "name": "Test Calibration",
+   "tests": 1,
+   "failures": 0,
+   "errors": 0,
+   "skipped": 0,
+   "time": 0.0,
+   "cases": [
+    {
+     "name": "Wf equal?",
+     "classname": "Test Calibration",
+     "status": "passed",
+     "time": 0.0,
+     "message": "",
+     "details": "",
+     "test_vi_rel": "",
+     "test_vi_name": "Wf equal?",
+     "target_vi_rel": "",
+     "target_vi_name": ""
+    }
+   ]
+  }
+ ],
  "tooling": {
   "missing": []
  }
