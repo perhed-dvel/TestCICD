@@ -5,19 +5,33 @@
     "platform":  "windows",
     "arch":  "AMD64",
     "labview_version":  "LabVIEW 2026",
-    "built_at":  "2026-10-22T13:15:56Z",
+    "built_at":  "2026-10-30T10:00:46Z",
     "specs":  [
                   {
                       "project":  "DQMH_Example\\DQMH_Example.lvproj",
                       "name":  "CML",
                       "type":  "EXE",
                       "target":  "My Computer",
-                      "status":  "failed",
+                      "status":  "built",
                       "outputs":  [
-
+                                      {
+                                          "file":  "CML.aliases",
+                                          "size":  38,
+                                          "sha256":  "3277c56b265a62fd2112dcccc5cf0d6065eb44ca7d050ffa950b49963bee9227"
+                                      },
+                                      {
+                                          "file":  "CML.exe",
+                                          "size":  3568128,
+                                          "sha256":  "7ffcea986c081ee1d13d201e24fb0275449d21ef8db491f6092dd307d6ea3e86"
+                                      },
+                                      {
+                                          "file":  "CML.ini",
+                                          "size":  287,
+                                          "sha256":  "625e5fe10b72d20592db23521b360c15cc8218c7c374121c51807e80e64be337"
+                                      }
                                   ],
-                      "message":  "ExecuteBuildSpec exited 2",
-                      "duration":  69.5
+                      "message":  "",
+                      "duration":  112.2
                   }
               ]
 }

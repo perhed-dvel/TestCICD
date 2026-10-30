@@ -21,7 +21,7 @@
     .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;margin-bottom:14px}
     .summary-card{display:flex;align-items:center;flex-wrap:wrap;gap:14px}
     h1{margin:0;font-size:1.3em}
-    .run-pill{display:inline-block;padding:3px 12px;border-radius:20px;font-weight:700;font-size:.8em;color:#fff;background:#da3633;text-transform:capitalize}
+    .run-pill{display:inline-block;padding:3px 12px;border-radius:20px;font-weight:700;font-size:.8em;color:#fff;background:#2ea043;text-transform:capitalize}
     .counts{font-size:.85em;color:var(--fg-muted);display:flex;gap:14px;flex-wrap:wrap}
     .toggle{margin-left:auto;display:flex;gap:6px}
     .toggle a{font-size:.8em;padding:4px 12px;border:1px solid var(--border);border-radius:6px;color:var(--fg-muted);text-decoration:none}
@@ -50,13 +50,13 @@
   <div class="wrap">
     <div class="card summary-card">
       <h1>Builds</h1>
-      <span class="run-pill">failed</span>
+      <span class="run-pill">passed</span>
       <div class="counts">
-        <span>0 built</span>
+        <span>1 built</span>
         <span>0 skipped</span>
-        <span>1 failed</span>
+        <span>0 failed</span>
         <span>1 total</span>
-        <span>69.8s</span>
+        <span>112.4s</span>
       </div>
       <div class="toggle">
         <a href="https://perhed-dvel.github.io/TestCICD/builds/43ac534fd63186de7ac1cedb1bfd46103f1a163c/index.html" class="active">Windows</a>
@@ -64,8 +64,8 @@
       </div>
     </div>
     <div class="commit"><code>43ac534</code> Fixed caraya unit test args. &middot; Per Hedlund</div>
-    <div class="card spec"><div class="spec-head"><span class="spec-name">CML</span><span class="type-badge">EXE</span><span class="target">target: My Computer</span><span class="status-pill" style="background:#da3633">Failed</span></div><div class="spec-sub">DQMH_Example\DQMH_Example.lvproj &middot; 69.5s</div><div class="artifacts"><div class="artifact err">ExecuteBuildSpec exited 2</div></div></div>
-    <div class="commit">Generated 2026-10-22 13:16:06 UTC &middot; <a style="color:var(--link)" href="https://github.com/perhed-dvel/TestCICD/actions/runs/39782906327">workflow run</a></div>
+    <div class="card spec"><div class="spec-head"><span class="spec-name">CML</span><span class="type-badge">EXE</span><span class="target">target: My Computer</span><span class="status-pill" style="background:#2ea043">Built</span></div><div class="spec-sub">DQMH_Example\DQMH_Example.lvproj &middot; 112.2s</div><div class="artifacts"><div class="artifact"><a class="dl" href="dist/DQMH_Example-DQMH_Example.lvproj/CML/CML.aliases" download><span class="dlico">&#8595;</span>CML.aliases</a><span class="sz">38 B</span><span class="hash" title="SHA-256: 3277c56b265a62fd2112dcccc5cf0d6065eb44ca7d050ffa950b49963bee9227">3277c56b265a…</span></div><div class="artifact"><a class="dl" href="dist/DQMH_Example-DQMH_Example.lvproj/CML/CML.exe" download><span class="dlico">&#8595;</span>CML.exe</a><span class="sz">3.4 MB</span><span class="hash" title="SHA-256: 7ffcea986c081ee1d13d201e24fb0275449d21ef8db491f6092dd307d6ea3e86">7ffcea986c08…</span></div><div class="artifact"><a class="dl" href="dist/DQMH_Example-DQMH_Example.lvproj/CML/CML.ini" download><span class="dlico">&#8595;</span>CML.ini</a><span class="sz">287 B</span><span class="hash" title="SHA-256: 625e5fe10b72d20592db23521b360c15cc8218c7c374121c51807e80e64be337">625e5fe10b72…</span></div></div></div>
+    <div class="commit">Generated 2026-10-30 10:00:57 UTC &middot; <a style="color:var(--link)" href="https://github.com/perhed-dvel/TestCICD/actions/runs/41037272721">workflow run</a></div>
   </div>
 </body>
 </html>
