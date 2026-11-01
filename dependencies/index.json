@@ -462,7 +462,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-89bc1adaa0a9",
+    "manifest_version": "win-546420d8f4ea",
     "files": [
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
@@ -2834,7 +2834,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-89bc1adaa0a9"
+      "version": "win-546420d8f4ea"
     },
     {
       "key": "linux",
