@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "platform": "windows",
+  "version": "win-667cae31d159",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/perhed-dvel/testcicd-labview-base:2026",
+  "base_digest": "sha256:69e19c36018afbe9306f44b1454cd207f239debc827c27a8c8a71d03c9c5c10b",
+  "seed_image": "ghcr.io/perhed-dvel/testcicd-labview-base:2026",
+  "seed_digest": "sha256:69e19c36018afbe9306f44b1454cd207f239debc827c27a8c8a71d03c9c5c10b",
+  "worker_layer": "seed-only-copy",
+  "copied_from_base": true,
+  "image_ref": "ghcr.io/perhed-dvel/testcicd-labview:win-667cae31d159",
+  "build_date": "2026-11-02T12:44:17Z",
+  "git_sha": "cf53770be1b496b1983d4f48e657334c14688493",
+  "run_url": "https://github.com/perhed-dvel/TestCICD/actions/runs/41447100155",
+  "vipc": [],
+  "vipm_raw": "",
+  "vipm_packages": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
