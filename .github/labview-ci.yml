@@ -4,7 +4,7 @@ schemaVersion: 1
 installedVersion: 4.16.3
 configuredAt: 2026-10-23T06:29:41Z
 source:
-  repo: elijah286/LabVIEW-CI-with-Containers
+  repo: ni/LabVIEW-CI-with-Containers
   ref: v4.16.3
 config:
   labviewVersion: "2026"
