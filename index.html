@@ -281,7 +281,7 @@
   <script>
   (function(){
     var RT = {"masscompile": {"label": "Mass Compile", "platforms": {"windows": {"wf": "masscompile-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "masscompile-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "vi-analyzer": {"label": "VI Analyzer", "platforms": {"windows": {"wf": "run-vi-analyzer-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "run-vi-analyzer-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "vidiff": {"label": "VIDiff", "platforms": {"windows": {"wf": "vidiff-windows-container.yml", "inputs": {"head_sha": "{sha}", "base_sha": "{parent}"}}, "linux": {"wf": "vidiff-linux-container.yml", "inputs": {"head_sha": "{sha}", "base_sha": "{parent}"}}}}, "snapshots": {"label": "VI Snapshots", "platforms": {"all": {"wf": "vi-snapshots.yml", "inputs": {"mode": "backfill"}}}}, "snapshots2": {"label": "VI Browser 2.0 Snapshots", "platforms": {"windows": {"wf": "vi-snapshots-json-windows.yml", "inputs": {"target_sha": "{sha}"}}, "linux": {"wf": "vi-snapshots-json.yml", "inputs": {"mode": "head", "target_sha": "{sha}"}}}}, "unit-tests": {"label": "Unit Tests", "platforms": {"windows": {"wf": "unit-tests-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "builds": {"label": "Builds", "platforms": {"windows": {"wf": "build-binaries-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "build-binaries-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}};
-    var RT_TIMING = {"masscompile": {"windows": {"total": 982.0, "work": 100.5}, "linux": {"total": 182.0, "work": 100.5}}, "vi-analyzer": {"windows": {"total": 1444.0, "work": null}, "linux": {"total": 402.0, "work": null}}, "vidiff": {"windows": {"total": 943.0, "work": null}, "linux": {"total": 130.0, "work": null}}, "snapshots2": {"windows": {"total": 1230.0, "work": null}, "linux": {"total": 139.0, "work": null}}, "unit-tests": {"windows": {"total": 968.0, "work": null}}, "builds": {"windows": {"total": 1023.5, "work": null}, "linux": {"total": 79.5, "work": null}}};
+    var RT_TIMING = {"masscompile": {"windows": {"total": 982.0, "work": 100.5}, "linux": {"total": 182.0, "work": 100.5}}, "vi-analyzer": {"windows": {"total": 1444.0, "work": null}, "linux": {"total": 402.0, "work": null}}, "vidiff": {"windows": {"total": 943.0, "work": null}, "linux": {"total": 130.0, "work": null}}, "snapshots2": {"windows": {"total": 1230.0, "work": null}, "linux": {"total": 139.0, "work": null}}, "unit-tests": {"windows": {"total": 968.0, "work": null}}, "builds": {"windows": {"total": 1017.0, "work": null}, "linux": {"total": 70.0, "work": null}}};
     var REPO = "perhed-dvel/TestCICD";
     var BRANCH = "main";
     var TOK_KEY = "lvci_dispatch_token";
@@ -2014,7 +2014,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — TestCICD</h1>
-  <div class="sub">Last updated: 2026-11-03 07:31 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
+  <div class="sub">Last updated: 2026-11-03 11:11 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/perhed-dvel/TestCICD">GitHub</a>
     <a href="https://github.com/perhed-dvel/TestCICD/actions">Actions</a>
@@ -2059,6 +2059,63 @@
       </tr>
     </thead>
     <tbody>
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(315,42%,45%)" title="Per Hedlund" aria-hidden="true">P</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=bb170b00564056b3f22eececcd09a78c9302e9ca" class="cidash-rev-msg" title="Only dispatch copy when push to main">Only dispatch copy when push to main</a></div>
+            <div class="cidash-rev-meta"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=bb170b00564056b3f22eececcd09a78c9302e9ca" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">bb170b0</a><span class="cidash-rev-dot">&middot;</span>Per Hedlund<span class="cidash-rev-dot">&middot;</span>2026-11-03</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(315,42%,45%)" title="Per Hedlund" aria-hidden="true">P</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=9b6ccb661615b5fcd901874eb8f90f9ea5fbb884" class="cidash-rev-msg" title="Only dispatch copy image for push to branches, not tags">Only dispatch copy image for push to branches, not tags</a></div>
+            <div class="cidash-rev-meta"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=9b6ccb661615b5fcd901874eb8f90f9ea5fbb884" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">9b6ccb6</a><span class="cidash-rev-dot">&middot;</span>Per Hedlund<span class="cidash-rev-dot">&middot;</span>2026-11-03</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(315,42%,45%)" title="Per Hedlund" aria-hidden="true">P</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=0dabcf4f5dc3af9201ff64087f7ae0df00d80134" class="cidash-rev-msg" title="Normalize path when promote build release">Normalize path when promote build release</a></div>
+            <div class="cidash-rev-meta"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=0dabcf4f5dc3af9201ff64087f7ae0df00d80134" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">0dabcf4</a><span class="cidash-rev-dot">&middot;</span>Per Hedlund<span class="cidash-rev-dot">&middot;</span>2026-11-03</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
     <tr data-project="false" data-deponly="false">
       <td class="cidash-rev">
         <div class="cidash-rev-wrap">

@@ -1,8 +1,35 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "fef39aab53901dbfa934840f5786b6dac2e4259c",
+  "sha": "bb170b00564056b3f22eececcd09a78c9302e9ca",
   "revisions": [
+    {
+      "sha": "bb170b00564056b3f22eececcd09a78c9302e9ca",
+      "short": "bb170b0",
+      "message": "Only dispatch copy when push to main",
+      "author": "Per Hedlund",
+      "date": "2026-11-03T10:09:04Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "9b6ccb661615b5fcd901874eb8f90f9ea5fbb884",
+      "short": "9b6ccb6",
+      "message": "Only dispatch copy image for push to branches, not tags",
+      "author": "Per Hedlund",
+      "date": "2026-11-03T09:43:35Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0dabcf4f5dc3af9201ff64087f7ae0df00d80134",
+      "short": "0dabcf4",
+      "message": "Normalize path when promote build release",
+      "author": "Per Hedlund",
+      "date": "2026-11-03T08:14:10Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "fef39aab53901dbfa934840f5786b6dac2e4259c",
       "short": "fef39aa",
@@ -471,7 +498,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-1c7163b82427",
+    "manifest_version": "win-bd3e92407a54",
     "files": [
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
@@ -2843,7 +2870,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-1c7163b82427"
+      "version": "win-bd3e92407a54"
     },
     {
       "key": "linux",
