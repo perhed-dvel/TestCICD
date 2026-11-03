@@ -5,7 +5,7 @@
     "platform":  "windows",
     "arch":  "AMD64",
     "labview_version":  "LabVIEW 2026",
-    "built_at":  "2026-11-03T11:46:48Z",
+    "built_at":  "2026-11-03T11:51:02Z",
     "specs":  [
                   {
                       "project":  "DQMH_Example\\DQMH_Example.lvproj",
@@ -22,7 +22,7 @@
                                       {
                                           "file":  "CML.exe",
                                           "size":  3568128,
-                                          "sha256":  "7330a7ed2b978b04d3ff98367d1c7c2222fc37654f4fe5d5bd11a8e93ba3c5ba"
+                                          "sha256":  "ba980c9bca0d9f2ecbd55951782ea769e1b1a54315c5e6fa1ae203388fa180d1"
                                       },
                                       {
                                           "file":  "CML.ini",
@@ -31,7 +31,7 @@
                                       }
                                   ],
                       "message":  "",
-                      "duration":  107.9
+                      "duration":  101.2
                   }
               ]
 }
