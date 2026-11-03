@@ -257,12 +257,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${GITHUB_REF#refs/tags/}"
+          RELEASE_DIR="${{ github.workspace }}/ci-out/builds/release"
+          # Normalize path
+          RELEASE_DIR="${RELEASE_DIR//\\//}"
           python .github/labview/promote-build-artifacts.py \
             --dist "${{ github.workspace }}/ci-out/builds/dist" \
             --out  "${{ github.workspace }}/ci-out/builds/release" \
             --os   windows --tag "$TAG"
           shopt -s nullglob
-          ASSETS=(${{ github.workspace }}/ci-out/builds/release/*)
+          ASSETS=("$RELEASE_DIR"/*)
           if [ ${#ASSETS[@]} -gt 0 ]; then
             gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --generate-notes
             gh release upload "$TAG" "${ASSETS[@]}" --clobber
