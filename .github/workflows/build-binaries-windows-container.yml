@@ -1,11 +1,13 @@
-name: Build Binaries — Windows Container
-run-name: Build Binaries Windows container - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.commit_sha || github.event.pull_request.head.sha || github.sha }}
-
+# Build Binaries — Windows Container
+#
 # Executes the project's LabVIEW build specifications (EXE, PPL, shared library,
 # source distribution, zip, installer, ...) headlessly in the Windows worker,
 # stages the built artifacts with checksums, publishes a Builds report, uploads
 # them as a workflow artifact (Tier A), and - on a version tag - promotes them to
 # the GitHub Release (Tier B).
+
+name: Build Binaries — Windows Container
+run-name: Build Binaries Windows container - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.commit_sha || github.event.pull_request.head.sha || github.sha }}
 
 on:
   pull_request:

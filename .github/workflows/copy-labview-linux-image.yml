@@ -13,6 +13,7 @@ on:
   # workflow_dispatch-only file, so the install/update push triggers the seed
   # directly (idempotent registry copy) and forces workflow registration.
   push:
+    branches: [main]
     paths:
       - '.github/labview-ci.yml'
       - '.github/workflows/copy-labview-linux-image.yml'
