@@ -17,6 +17,8 @@ on:
   # seed when the tooling updates and forces GitHub to register the workflow.
   # Safe to re-run: crane copy of an unchanged digest is a no-op re-tag.
   push:
+    branches:
+      - '**'   # or just your default branch, e.g. main
     paths:
       - '.github/labview-ci.yml'
       - '.github/workflows/copy-labview-image.yml'
