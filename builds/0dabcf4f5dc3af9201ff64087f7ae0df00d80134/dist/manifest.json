@@ -1,0 +1,23 @@
+{
+    "repo":  "perhed-dvel/TestCICD",
+    "sha":  "0dabcf4f5dc3af9201ff64087f7ae0df00d80134",
+    "ref":  "refs/tags/v1.0.2",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-11-03T08:24:32Z",
+    "specs":  [
+                  {
+                      "project":  "DQMH_Example\\DQMH_Example.lvproj",
+                      "name":  "CML",
+                      "type":  "EXE",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  70.3
+                  }
+              ]
+}
