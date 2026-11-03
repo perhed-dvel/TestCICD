@@ -16,11 +16,13 @@ on:
   # writes .github/labview-ci.yml, and listing this file's own path both fires a
   # seed when the tooling updates and forces GitHub to register the workflow.
   # Safe to re-run: crane copy of an unchanged digest is a no-op re-tag.
-  push:
-    branches: [main]
-    paths:
-      - '.github/labview-ci.yml'
-      - '.github/workflows/copy-labview-image.yml'
+  #
+  # Ignore copy on push, to avoid replacing existing image
+  #push:
+  #  branches: [main]
+  #  paths:
+  #    - '.github/labview-ci.yml'
+  #    - '.github/workflows/copy-labview-image.yml'
 
 env:
   IMAGE_NAME: ''
