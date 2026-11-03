@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "79be205d010687bac55abad27d0e7838d9db2ac5",
+  "sha": "47e894fe82e2840dd4af38d5137c9b758b15e5ae",
   "revisions": [
+    {
+      "sha": "47e894fe82e2840dd4af38d5137c9b758b15e5ae",
+      "short": "47e894f",
+      "message": "Ignore copy image on push",
+      "author": "Per Hedlund",
+      "date": "2026-11-03T13:58:01Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "79be205d010687bac55abad27d0e7838d9db2ac5",
       "short": "79be205",
@@ -542,7 +551,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-bd3e92407a54",
+    "manifest_version": "win-5926d19e5cab",
     "files": [
       {
         "source_file": "DQMH_Example/DQMH_Example.dragon",
@@ -2914,7 +2923,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-bd3e92407a54"
+      "version": "win-5926d19e5cab"
     },
     {
       "key": "linux",
