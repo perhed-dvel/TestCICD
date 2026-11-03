@@ -241,7 +241,7 @@
     // the install/Configure iframe and its in-flight work. When a refresh comes due
     // with a dialog open, keep re-checking and reload only once it is closed.
     (function () {
-      var REFRESH_MS = 60 * 1000;
+      var REFRESH_MS = 900 * 1000;
       if (!(REFRESH_MS > 0)) return;
       function tick() {
         if (lvciModalOpen()) { setTimeout(tick, 5000); return; }
@@ -2014,7 +2014,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — TestCICD</h1>
-  <div class="sub">Last updated: 2026-11-03 13:13 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
+  <div class="sub">Last updated: 2026-11-03 13:39 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/perhed-dvel/TestCICD">GitHub</a>
     <a href="https://github.com/perhed-dvel/TestCICD/actions">Actions</a>
@@ -2059,6 +2059,44 @@
       </tr>
     </thead>
     <tbody>
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(315,42%,45%)" title="Per Hedlund" aria-hidden="true">P</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=79be205d010687bac55abad27d0e7838d9db2ac5" class="cidash-rev-msg" title="Merge pull request #8 from perhed-dvel/labview-ci/reconfigure-41646083612">Merge pull request #8 from perhed-dvel/labview-ci/reconfigure-41646083612</a></div>
+            <div class="cidash-rev-meta"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=79be205d010687bac55abad27d0e7838d9db2ac5" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">79be205</a><span class="cidash-rev-dot">&middot;</span>Per Hedlund<span class="cidash-rev-dot">&middot;</span>2026-11-03</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
+    <tr data-project="false" data-deponly="false">
+      <td class="cidash-rev">
+        <div class="cidash-rev-wrap">
+          <span class="cidash-avatar" style="background:hsl(150,42%,45%)" title="github-actions[bot]" aria-hidden="true">G</span>
+          <div class="cidash-rev-body">
+            <div class="cidash-rev-line1"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=ba5bc23c28e22b5d65c93286311770b3493edd27" class="cidash-rev-msg" title="ci: reconfigure LabVIEW CI settings">ci: reconfigure LabVIEW CI settings</a></div>
+            <div class="cidash-rev-meta"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=ba5bc23c28e22b5d65c93286311770b3493edd27" class="cidash-rev-sha" title="Browse this revision's VIs in the VI Browser">ba5bc23</a><span class="cidash-rev-dot">&middot;</span>github-actions[bot]<span class="cidash-rev-dot">&middot;</span>2026-11-03</div>
+          </div>
+        </div>
+      </td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+      <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
+    </tr>
+
     <tr data-project="true" data-deponly="false">
       <td class="cidash-rev">
         <div class="cidash-rev-wrap">
@@ -2073,7 +2111,7 @@
       <td style="text-align:center" class="cidash-cap-cell" data-cap="vi-analyzer" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" data-ts="2026-11-03T13:06:20Z"><span class="cidash-chip cc-split" title="Windows: 922 findings across 242 VI(s), 281 analyzed · Linux: 988 findings across 242 VI(s), 281 analyzed"><a href="https://perhed-dvel.github.io/TestCICD/report/index.html?type=vi-analyzer-report&sha=ef64f945013584409ff4d346fdeaa49b41a15b2b&short=ef64f94&src=..%2Fvi-analyzer%2Fef64f945013584409ff4d346fdeaa49b41a15b2b%2Findex.html&title=VI%20Analyzer%20%C2%B7%20ef64f94" style="color:inherit"><span class="cidash-vseg cc-warn" data-tip="Windows">922</span><span class="cidash-vseg-sep">/</span><span class="cidash-vseg cc-fail cc-solid" data-tip="Linux">988</span></a></span></td>
       <td style="text-align:center"><a href="#" class="cidash-run" data-cap="vidiff" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" title="Run VIDiff for commit ef64f94">&#9655;</a></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="snapshots" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" data-ts="2026-11-03T13:10:12Z" data-done="true"><span class="cidash-chip cc-info" title="Snapshots rendered for all 263 VIs in this revision"><a href="https://perhed-dvel.github.io/TestCICD/vi-snapshots/index.html?sha=ef64f945013584409ff4d346fdeaa49b41a15b2b" style="color:inherit">263</a></span></td>
-      <td style="text-align:center" class="cidash-active-cell" data-cap="unit-tests" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" data-active="true"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/perhed-dvel/TestCICD/actions/runs/41639331979" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>tests</a></span></td>
+      <td style="text-align:center" class="cidash-cap-cell" data-cap="unit-tests" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" data-ts="2026-11-03T13:13:37Z"><span class="cidash-chip cc-pass" title="Windows: 0 of 1 unit tests failed; pass rate 100%. Green >= 100% passed, yellow >= 80%, red < 80%."><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://perhed-dvel.github.io/TestCICD/report/index.html?type=unit-tests-report&sha=ef64f945013584409ff4d346fdeaa49b41a15b2b&short=ef64f94&src=..%2Funit-tests%2Fef64f945013584409ff4d346fdeaa49b41a15b2b%2Findex.html&title=Unit%20Tests%20%C2%B7%20ef64f94" style="color:inherit">0% failed</a></span></td>
       <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="builds" data-sha="ef64f945013584409ff4d346fdeaa49b41a15b2b" data-parent="bb170b00564056b3f22eececcd09a78c9302e9ca" data-short="ef64f94" data-ts="2026-11-03T13:09:25Z"><span class="cidash-chip cc-split" title="1 built, 0 failed of 1 build specification(s)"><a href="https://perhed-dvel.github.io/TestCICD/report/index.html?type=builds-report&sha=ef64f945013584409ff4d346fdeaa49b41a15b2b&short=ef64f94&src=..%2Fbuilds%2Fef64f945013584409ff4d346fdeaa49b41a15b2b%2Findex.html&title=Builds%20%C2%B7%20ef64f94" style="color:inherit"><span class="cidash-vseg cc-pass" data-tip="Succeeded">1</span><span class="cidash-vseg-sep">/</span><span class="cidash-vseg cc-muted" data-tip="Failed">0</span></a></span></td>
     </tr>

@@ -1,8 +1,26 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "ef64f945013584409ff4d346fdeaa49b41a15b2b",
+  "sha": "79be205d010687bac55abad27d0e7838d9db2ac5",
   "revisions": [
+    {
+      "sha": "79be205d010687bac55abad27d0e7838d9db2ac5",
+      "short": "79be205",
+      "message": "Merge pull request #8 from perhed-dvel/labview-ci/reconfigure-41646083612",
+      "author": "Per Hedlund",
+      "date": "2026-11-03T13:38:53Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ba5bc23c28e22b5d65c93286311770b3493edd27",
+      "short": "ba5bc23",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-11-03T13:38:11Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "ef64f945013584409ff4d346fdeaa49b41a15b2b",
       "short": "ef64f94",
@@ -350,6 +368,11 @@
         "path": "DQMH_Example/Dependencies.vipc",
         "monitor": true,
         "monitorOn": null
+      },
+      {
+        "path": "DQMH_Example/DQMH_Example.dragon",
+        "monitor": false,
+        "monitorOn": null
       }
     ],
     "dragon": [
@@ -432,6 +455,18 @@
         "oglib_string-6.0.2.35"
       ],
       "error": ""
+    },
+    {
+      "path": "DQMH_Example/DQMH_Example.dragon",
+      "role": "project",
+      "capability": "",
+      "tooling": false,
+      "configured": false,
+      "monitored": false,
+      "monitorOn": [],
+      "locked": false,
+      "packages": [],
+      "error": "File is not a zip file"
     }
   ],
   "nipm": [
