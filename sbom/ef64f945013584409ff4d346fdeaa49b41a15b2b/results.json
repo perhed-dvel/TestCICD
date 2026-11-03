@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "sha": "ef64f945013584409ff4d346fdeaa49b41a15b2b",
+  "short": "ef64f94",
+  "platform": "windows",
+  "repo": "perhed-dvel/TestCICD",
+  "pages_url": "https://perhed-dvel.github.io/TestCICD",
+  "dash_url": "https://perhed-dvel.github.io/TestCICD/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Added Logger.lvproj",
+   "author": "Per Hedlund",
+   "date": "2026-11-03T13:51:56+01:00"
+  },
+  "generated_utc": "2026-11-03 13:11 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 3
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  },
+  {
+   "name": "delacor_lib_qmh",
+   "version": "7.1.2.1547",
+   "vendor": "DQMH Consortium"
+  },
+  {
+   "name": "jki_lib_caraya",
+   "version": "1.4.4.148",
+   "vendor": "JKI"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
