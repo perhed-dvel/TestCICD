@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "47e894fe82e2840dd4af38d5137c9b758b15e5ae",
+  "sha": "a29c03ef0827b477a68db13aa0584a49a4d0edee",
   "revisions": [
+    {
+      "sha": "a29c03ef0827b477a68db13aa0584a49a4d0edee",
+      "short": "a29c03e",
+      "message": "Updated build spec for relative path.",
+      "author": "Per Hedlund",
+      "date": "2026-11-04T09:11:08Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "47e894fe82e2840dd4af38d5137c9b758b15e5ae",
       "short": "47e894f",
