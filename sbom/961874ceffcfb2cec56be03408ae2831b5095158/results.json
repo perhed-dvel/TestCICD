@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "sha": "961874ceffcfb2cec56be03408ae2831b5095158",
+  "short": "961874c",
+  "platform": "windows",
+  "repo": "perhed-dvel/TestCICD",
+  "pages_url": "https://perhed-dvel.github.io/TestCICD",
+  "dash_url": "https://perhed-dvel.github.io/TestCICD/",
+  "labview_version": "2026",
+  "commit": {
+   "message": "Updated build spec paths to suite current workflow (to be fixed).",
+   "author": "Per Hedlund",
+   "date": "2026-11-04T10:39:39+01:00"
+  },
+  "generated_utc": "2026-11-04 10:51 UTC",
+  "spdx_version": "CycloneDX 1.5",
+  "created": ""
+ },
+ "summary": {
+  "total_packages": 3
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "packages": [
+  {
+   "name": "ni-labview-2026-vilib",
+   "version": "26.3.0.49792-0+f640",
+   "vendor": "National Instruments"
+  },
+  {
+   "name": "delacor_lib_qmh",
+   "version": "7.1.2.1547",
+   "vendor": "DQMH Consortium"
+  },
+  {
+   "name": "jki_lib_caraya",
+   "version": "1.4.4.148",
+   "vendor": "JKI"
+  }
+ ],
+ "tooling": {
+  "missing": []
+ }
+}
