@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "a29c03ef0827b477a68db13aa0584a49a4d0edee",
+  "sha": "961874ceffcfb2cec56be03408ae2831b5095158",
   "revisions": [
+    {
+      "sha": "961874ceffcfb2cec56be03408ae2831b5095158",
+      "short": "961874c",
+      "message": "Updated build spec paths to suite current workflow (to be fixed).",
+      "author": "Per Hedlund",
+      "date": "2026-11-04T09:39:39Z",
+      "project": true,
+      "dep_only": false
+    },
     {
       "sha": "a29c03ef0827b477a68db13aa0584a49a4d0edee",
       "short": "a29c03e",
