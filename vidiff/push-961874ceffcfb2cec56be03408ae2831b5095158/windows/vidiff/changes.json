@@ -1,0 +1,10 @@
+{
+  "platform": "windows",
+  "files": [
+    {
+      "file": "DQMH_Example/CML Main.vi",
+      "type": "modified",
+      "report": "DQMH_Example-CML_Main.vi/index.html"
+    }
+  ]
+}
