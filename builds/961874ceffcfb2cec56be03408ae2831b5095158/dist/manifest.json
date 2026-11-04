@@ -1,11 +1,11 @@
 {
     "repo":  "perhed-dvel/TestCICD",
     "sha":  "961874ceffcfb2cec56be03408ae2831b5095158",
-    "ref":  "refs/heads/main",
+    "ref":  "refs/tags/v1.0.4",
     "platform":  "windows",
     "arch":  "AMD64",
     "labview_version":  "LabVIEW 2026",
-    "built_at":  "2026-11-04T10:54:36Z",
+    "built_at":  "2026-11-04T11:26:46Z",
     "specs":  [
                   {
                       "project":  "DQMH_Example\\DQMH_Example.lvproj",
@@ -22,7 +22,7 @@
                                       {
                                           "file":  "CML.exe",
                                           "size":  3568128,
-                                          "sha256":  "15ce692072acecd874f176b2128bd155abb7e713be65ee09d330b449a438320c"
+                                          "sha256":  "47d187b7ed08f25345f54fea80bf0b31774323934e4cd324f06da4a26936fde2"
                                       },
                                       {
                                           "file":  "CML.ini",
@@ -31,7 +31,7 @@
                                       }
                                   ],
                       "message":  "",
-                      "duration":  103.4
+                      "duration":  104
                   },
                   {
                       "project":  "DQMH_Example\\Libraries\\Logger.lvproj",
@@ -43,11 +43,11 @@
                                       {
                                           "file":  "Logger.lvlibp",
                                           "size":  656384,
-                                          "sha256":  "f35aab79ac69ecb035a57219a3a77a5f8fb24b61cdbb6ae1a098cc1cc9d4e2fb"
+                                          "sha256":  "ba341c4544d22b41fb371e133a657b0f543b560f978c81cac6a0f264c1c54ce4"
                                       }
                                   ],
                       "message":  "",
-                      "duration":  17.2
+                      "duration":  18
                   }
               ]
 }
