@@ -28,6 +28,7 @@ config:
     specs:
       - "DQMH_Example/DQMH_Example.lvproj::CML::windows"
       - "DQMH_Example/Libraries/Logger.lvproj::Logger::windows"
+      - "DQMH_Example/Libraries/Acquisition.lvproj::Acquisition::windows"
   actionOs:
     builds: windows
     masscompile: linux
