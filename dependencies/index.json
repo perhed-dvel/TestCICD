@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "perhed-dvel/TestCICD",
-  "sha": "8141ede2550a80b2a72fb57f35d2b44e0066fab8",
+  "sha": "73ad53758869a8a06c6be37cf6ff5ce8157a1ff9",
   "revisions": [
+    {
+      "sha": "73ad53758869a8a06c6be37cf6ff5ce8157a1ff9",
+      "short": "73ad537",
+      "message": "Added Acquisition to specs.",
+      "author": "Per Hedlund",
+      "date": "2026-11-26T13:46:34Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "8141ede2550a80b2a72fb57f35d2b44e0066fab8",
       "short": "8141ede",
